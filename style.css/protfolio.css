@@ -38,7 +38,7 @@ header{
     padding-top : 50px;
 }
 nav{
-    
+    width: 74%;
     max-width: 1140px;
    /* border:1px solid red; */
     margin:0px auto;
@@ -61,6 +61,41 @@ nav .menu a{
 
 
 }
-#banner{
+#Banner{
     border : 1px solid red;
+    margin: 46px 38px 0px 230;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+
+}
+#Banner .banner-contain{
+      max-width: 565px;
+
+}
+#Banner .banner-contain h2{
+    font-size: 45px;
+    font-weight: 600px;
+    color: #474747;
+    margin-bottom: 5px;
+
+}
+#Banner .banner-contain h2{
+    font-size: 85px;
+    font-weight: bold;
+    color:#181818;
+    margin-bottom: 20px;
+
+
+
+
+}
+#Banner .banner-contain p{
+  
+    font-size:18px;
+    font-weight:#757575;
+    line-height: 30px;
+   
+
 }
